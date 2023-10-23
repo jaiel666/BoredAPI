@@ -13,7 +13,7 @@ class BoredApplication
             if (isset($activityData['activity'])) {
                 $activityName = $activityData['activity'];
                 $activity = new Bored($activityName);
-                echo 'Random Activity ' . $i . ': ' . $activity->getName() . "\n";
+                echo "Random Activity $i: " . $activity->getName() . "\n";
             } else {
                 echo 'Failed to fetch a random activity.' . "\n";
             }
