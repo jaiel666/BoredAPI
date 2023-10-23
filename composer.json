@@ -5,5 +5,7 @@
             "App\\": "boredclasses/"
         }
     },
-    "require": {}
+    "require": {
+        "symfony/console": "^5.4"
+    }
 }
